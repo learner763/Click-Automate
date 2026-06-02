@@ -1,4 +1,9 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://click-automate.vercel.app/sitemap.xml
+export default function robots() {
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: "https://click-automate.vercel.app/sitemap.xml",
+  };
+}

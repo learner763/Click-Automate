@@ -1,40 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://click-automate.vercel.app/</loc>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://click-automate.vercel.app/products</loc>
-    <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://click-automate.vercel.app/accomplishments</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://click-automate.vercel.app/contact</loc>
-    <priority>0.8</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://click-automate.vercel.app/privacy</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://click-automate.vercel.app/cookies</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
-</urlset>
+export default function sitemap() {
+  return [
+    {
+      url: "https://click-automate.vercel.app",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    {
+      url: "https://click-automate.vercel.app/products",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://click-automate.vercel.app/contact",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+  ];
+}

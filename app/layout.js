@@ -31,7 +31,6 @@ export const metadata = {
   ],
 
   creator: "Click Automate",
-
   publisher: "Click Automate",
 
   robots: {
@@ -40,10 +39,14 @@ export const metadata = {
     googleBot: {
       index: true,
       follow: true,
+      "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
-      "max-video-preview": -1,
     },
+  },
+
+  alternates: {
+    canonical: "https://click-automate.vercel.app",
   },
 
   openGraph: {
@@ -73,17 +76,53 @@ export const metadata = {
     images: ["/og-image.png"],
   },
 
-  alternates: {
-    canonical: "https://click-automate.vercel.app",
-  },
-
   category: "technology",
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Click Automate",
+              url: "https://click-automate.vercel.app",
+              logo: "https://click-automate.vercel.app/og-image.png",
+              description:
+                "Web development, SEO, AI automation, payment integration and digital solutions.",
+              email: "clickautomate2@gmail.com",
+
+              sameAs: [],
+
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "PK",
+              },
+
+              areaServed: "Worldwide",
+
+              services: [
+                "Web Development",
+                "SEO",
+                "AI Automation",
+                "Payment Integrations",
+                "Ads Management",
+              ],
+            }),
+          }}
+        />
+      </body>
     </html>
   );
 }

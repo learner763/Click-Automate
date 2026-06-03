@@ -21,14 +21,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://click-automate.vercel.app",
+    canonical: "https://www.click-automate.com",
   },
 
   openGraph: {
     title: "Click Automate | Web Development, SEO & AI Automation",
     description:
       "Professional web development, SEO, AI automation and digital solutions for modern businesses.",
-    url: "https://click-automate.vercel.app",
+    url: "https://www.click-automate.com",
     siteName: "Click Automate",
     images: [
       {
@@ -94,7 +94,7 @@ export default function Home() {
 
             <h1 className="hero-title">
               Web Development, SEO &{" "}
-              <span className="grad-text">AI Automation</span>
+              <span className="grad-text">AI Automation </span>
               For Growing Businesses
             </h1>
 
@@ -265,13 +265,13 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Click Automate",
-          url: "https://click-automate.vercel.app",
+          url: "https://www.click-automate.com",
           description:
             "Web development, SEO, AI automation and payment integration services.",
           potentialAction: {
             "@type": "SearchAction",
             target:
-              "https://click-automate.vercel.app/products?q={search_term_string}",
+              "https://www.click-automate.com/products?q={search_term_string}",
             "query-input": "required name=search_term_string",
           },
         }),

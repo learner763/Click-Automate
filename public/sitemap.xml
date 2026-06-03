@@ -3,77 +3,77 @@ export default function sitemap() {
 
   return [
     {
-      url: "https://click-automate.vercel.app",
+      url: "https://www.click-automate.com",
       lastModified: now,
       changeFrequency: "weekly",
       priority: 1,
     },
 
     {
-      url: "https://click-automate.vercel.app/products",
+      url: "https://www.click-automate.com/products",
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
 
     {
-      url: "https://click-automate.vercel.app/contact",
+      url: "https://www.click-automate.com/contact",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
 
     {
-      url: "https://click-automate.vercel.app/accomplishments",
+      url: "https://www.click-automate.com/accomplishments",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
 
     {
-      url: "https://click-automate.vercel.app/privacy",
+      url: "https://www.click-automate.com/privacy",
       lastModified: now,
       changeFrequency: "yearly",
       priority: 0.3,
     },
 
     {
-      url: "https://click-automate.vercel.app/terms",
+      url: "https://www.click-automate.com/terms",
       lastModified: now,
       changeFrequency: "yearly",
       priority: 0.3,
     },
 
     {
-      url: "https://click-automate.vercel.app/products/web-development",
+      url: "https://www.click-automate.com/products/web-development",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,
     },
 
     {
-      url: "https://click-automate.vercel.app/products/seo-content",
+      url: "https://www.click-automate.com/products/seo-content",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,
     },
 
     {
-      url: "https://click-automate.vercel.app/products/apps-payment",
+      url: "https://www.click-automate.com/products/apps-payment",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,
     },
 
     {
-      url: "https://click-automate.vercel.app/products/social-media-ads",
+      url: "https://www.click-automate.com/products/social-media-ads",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,
     },
 
     {
-      url: "https://click-automate.vercel.app/products/ai-agents",
+      url: "https://www.click-automate.com/products/ai-agents",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,

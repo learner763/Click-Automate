@@ -7,8 +7,8 @@ export default function robots() {
       },
     ],
 
-    sitemap: "https://click-automate.vercel.app/sitemap.xml",
+    sitemap: "https://www.click-automate.com/sitemap.xml",
 
-    host: "https://click-automate.vercel.app",
+    host: "https://www.click-automate.com",
   };
 }

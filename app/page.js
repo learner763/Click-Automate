@@ -93,7 +93,7 @@ export default function Home() {
             </p>
 
             <h1 className="hero-title">
-              Web Development, SEO &{" "}
+              Website Development, SEO &{" "}
               <span className="grad-text">AI Automation </span>
               For Growing Businesses
             </h1>

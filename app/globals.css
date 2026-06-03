@@ -944,11 +944,12 @@ img { display: block; max-width: 100%; }
   border-radius: 28px;
   border: 1px solid var(--border);
   background: var(--bg-white);
-  padding: 48px 56px;
+  padding: 64px 56px;
+  padding-bottom:36px;
   max-width: var(--max-w);
   margin: 0 auto;
 }
-@media(max-width:768px){ .hiw-card { padding: 32px 24px; } }
+@media(max-width:768px){ .hiw-card { padding: 64px 24px;padding-bottom: 36px; } }
 .hiw-steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

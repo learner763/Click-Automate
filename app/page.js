@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import services from "./data/services";
 
 export const metadata = {
-  title: "Web Development, SEO & AI Automation Services",
+  title: "Click Automate | Web Development, SEO & AI Automation",
   description:
     "Professional web development, SEO, AI automation, payment integrations and digital growth services for startups and businesses.",
 

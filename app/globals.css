@@ -871,7 +871,7 @@ img { display: block; max-width: 100%; }
   margin: 0 24px;
   padding: 96px 56px;
 }
-@media(max-width:768px){ .features-section { margin: 0; border-radius: 0; padding: 64px 24px; } }
+@media(max-width:768px){ .features-section { margin: 0; border-radius: 0; padding: 96px 24px; } }
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

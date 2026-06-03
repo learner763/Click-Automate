@@ -158,7 +158,7 @@ export default function Home() {
 
       {/* PROBLEMS */}
       <section className="problem-section">
-        <div style={{maxWidth:"var(--max-w)",margin:"0 auto"}}>
+        <div style={{maxWidth:"var(--max-w)",margin:"0 auto",marginTop:'-150px'}}>
           <div className="center">
             <p className="eyebrow">What slows your business down?</p>
             <h2 className="section-h">The problems <span className="grad-text">we solve</span>.</h2>

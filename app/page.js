@@ -3,6 +3,53 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import services from "./data/services";
 
+export const metadata = {
+  title: "Web Development, SEO & AI Automation Services",
+  description:
+    "Professional web development, SEO, AI automation, payment integrations and digital growth services for startups and businesses.",
+
+  keywords: [
+    "web development services",
+    "SEO agency",
+    "AI automation services",
+    "Next.js development",
+    "payment integrations",
+    "business automation",
+    "website development",
+    "digital marketing",
+    "software solutions",
+  ],
+
+  alternates: {
+    canonical: "https://click-automate.vercel.app",
+  },
+
+  openGraph: {
+    title: "Click Automate | Web Development, SEO & AI Automation",
+    description:
+      "Professional web development, SEO, AI automation and digital solutions for modern businesses.",
+    url: "https://click-automate.vercel.app",
+    siteName: "Click Automate",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Click Automate",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Click Automate",
+    description:
+      "Professional web development, SEO and AI automation services.",
+    images: ["/og-image.png"],
+  },
+};
 export default function Home() {
   return (
     <div className="page-wrap">
@@ -46,16 +93,16 @@ export default function Home() {
             </p>
 
             <h1 className="hero-title">
-              Web, payments and{" "}
-              <span className="grad-text">client growth</span>{" "}
-              — all in one team.
+              Web Development, SEO &{" "}
+              <span className="grad-text">AI Automation</span>
+              For Growing Businesses
             </h1>
 
             <p className="hero-sub">
-              ClickAutomate gives you web development, SEO,
-              payment integrations, ad management and AI
-              workflows — without juggling 5 agencies.
-              Start with what you need, scale as you grow.
+              We build SEO-optimized websites, AI automation
+              systems, payment integrations and digital growth
+              solutions that help startups and businesses attract
+              more customers and automate operations.
             </p>
 
             <div className="hero-btns">
@@ -211,7 +258,25 @@ export default function Home() {
           </ul>
         </div>
       </div>
-
+      <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Click Automate",
+          url: "https://click-automate.vercel.app",
+          description:
+            "Web development, SEO, AI automation and payment integration services.",
+          potentialAction: {
+            "@type": "SearchAction",
+            target:
+              "https://click-automate.vercel.app/products?q={search_term_string}",
+            "query-input": "required name=search_term_string",
+          },
+        }),
+      }}
+    />
       <Footer />
     </div>
   );

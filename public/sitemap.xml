@@ -1,22 +1,82 @@
 export default function sitemap() {
+  const now = new Date();
+
   return [
     {
       url: "https://click-automate.vercel.app",
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
       priority: 1,
     },
+
     {
       url: "https://click-automate.vercel.app/products",
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
+
     {
       url: "https://click-automate.vercel.app/contact",
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/accomplishments",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/privacy",
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/terms",
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/products/web-development",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/products/seo-content",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/products/apps-payment",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/products/social-media-ads",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+
+    {
+      url: "https://click-automate.vercel.app/products/ai-agents",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
   ];
 }

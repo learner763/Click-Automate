@@ -79,8 +79,8 @@ export default function Accomplishments() {
             Results that speak for themselves.
           </div>
           {[
-            {n:"120+", l:"Projects Delivered"},
-            {n:"$4M+", l:"Client Revenue Generated"},
+            {n:"23", l:"Projects Delivered"},
+            {n:"$300K", l:"Client Revenue Generated"},
             {n:"98%",  l:"Client Retention Rate"},
           ].map((s) => (
             <div key={s.l} style={{paddingLeft:24,borderLeft:"1px solid #E6EAF1"}}>
@@ -225,51 +225,6 @@ export default function Accomplishments() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Awards — centered grid */}
-      <section style={{padding:"80px 24px",background:"#F4F7FB"}}>
-        <div style={{maxWidth:900,margin:"0 auto"}}>
-          <div style={{textAlign:"center",marginBottom:40}}>
-            <p style={{fontSize:"0.75rem",fontWeight:700,letterSpacing:"0.14em",textTransform:"uppercase",color:"#7C3AED",marginBottom:12}}>
-              RECOGNITION
-            </p>
-            <h2 style={{
-              fontFamily:"'Inter Tight',sans-serif",
-              fontSize:"clamp(1.8rem,3vw,2.5rem)",
-              fontWeight:800,letterSpacing:"-0.025em",color:"#0E1729",
-            }}>Awards & milestones</h2>
-          </div>
-          {/* Centered 4-col grid, max 800px so it stays tight and centered */}
-          <div style={{
-            display:"grid",
-            gridTemplateColumns:"repeat(4,1fr)",
-            gap:16,
-          }} className="awards-centered">
-            {awards.map((a,i) => (
-              <div key={a.title} className="k-card fade-up" style={{
-                animationDelay:`${i*0.09}s`,
-                textAlign:"center",
-                padding:"28px 16px",
-              }}>
-                <span style={{fontSize:"2rem",display:"block",marginBottom:12}}>{a.icon}</span>
-                <h4 style={{
-                  fontFamily:"'Inter Tight',sans-serif",
-                  fontWeight:700,fontSize:"0.875rem",
-                  color:"#0E1729",marginBottom:4,
-                  lineHeight:1.3,
-                }}>{a.title}</h4>
-                <p style={{fontSize:"0.75rem",color:"#8896A8",margin:0}}>{a.org}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <style>{`
-          @media(max-width:640px){
-            .awards-centered { grid-template-columns: repeat(2,1fr) !important; }
-          }
-        `}</style>
       </section>
 
       {/* CTA */}

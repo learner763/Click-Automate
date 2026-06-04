@@ -129,7 +129,7 @@ export default function TermsOfService() {
       <Footer />
 
       <style>{`
-        @media (max-width: 768px) {
+        @media (max-width: 800px) {
           .legal-layout { grid-template-columns: 1fr !important; gap: 32px !important; }
           .legal-sidebar { display: none !important; }
         }

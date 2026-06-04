@@ -572,7 +572,7 @@ export default function Navbar() {
           display: none !important;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 800px) {
           .desktop-nav {
             display: none !important;
           }

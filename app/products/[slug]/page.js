@@ -228,7 +228,7 @@ export default async function ServiceDetail({ params }) {
       <Footer />
 
       <style>{`
-        @media(max-width:768px){
+        @media(max-width:800px){
           .kd-hero-grid { grid-template-columns: 1fr !important; }
           .kd-mockup-col { display: none !important; }
         }

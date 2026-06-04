@@ -726,7 +726,7 @@ img { display: block; max-width: 100%; }
    MOBILE
 ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .hero-inner {
     padding: 80px 18px 90px;
   }
@@ -780,7 +780,7 @@ img { display: block; max-width: 100%; }
   gap: 32px;
   align-items: center;
 }
-@media(max-width:768px){ .stats-bar-inner { grid-template-columns: 1fr 1fr; } }
+@media(max-width:800px){ .stats-bar-inner { grid-template-columns: 1fr 1fr; } }
 .stats-bar-intro { font-size: 0.875rem; color: var(--muted); line-height: 1.55; }
 .stats-bar-intro strong { display: block; font-size: 0.9375rem; color: var(--dark); margin-bottom: 4px; }
 .stat-item { padding-left: 24px; border-left: 1px solid var(--border); }
@@ -873,7 +873,7 @@ img { display: block; max-width: 100%; }
   padding: 48px 56px;
   padding-bottom: 60px;
 }
-@media(max-width:768px){ .features-section { margin: 0; border-radius: 0; } }
+@media(max-width:800px){ .features-section { margin: 0; border-radius: 0; } }
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -950,7 +950,7 @@ img { display: block; max-width: 100%; }
   max-width: var(--max-w);
   margin: 0 auto;
 }
-@media(max-width:768px){ .hiw-card { padding: 64px 24px; } }
+@media(max-width:800px){ .hiw-card { padding: 64px 24px; } }
 .hiw-steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1005,7 +1005,7 @@ img { display: block; max-width: 100%; }
   gap: 48px;
   color: #fff;
 }
-@media(max-width:768px){ .cta-band-inner { grid-template-columns: 1fr; padding: 32px 24px; } }
+@media(max-width:800px){ .cta-band-inner { grid-template-columns: 1fr; padding: 32px 24px; } }
 .cta-band-eyebrow {
   display: inline-flex;
   align-items: center;
@@ -1467,7 +1467,7 @@ img { display: block; max-width: 100%; }
 .sec-bg { background: var(--bg); }
 
 /* ── RESPONSIVE ── */
-@media(max-width:768px){
+@media(max-width:800px){
   .navbar-links { display: none; }
   .hero-inner { padding: 64px 24px; }
   .sec { padding: 64px 24px; }

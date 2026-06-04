@@ -29,7 +29,7 @@ export default async function ServiceDetail({ params }) {
         <div className="kd-hero-bg"/>
         <div style={{
           position:"relative",maxWidth:1280,margin:"0 auto",
-          padding:"96px 24px 128px",
+          padding:"96px 24px",
           display:"grid",
           gridTemplateColumns:"1fr 1fr",
           alignItems:"center",gap:48,

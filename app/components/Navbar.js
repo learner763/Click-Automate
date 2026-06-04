@@ -58,7 +58,7 @@ export default function Navbar() {
           backdropFilter: "blur(20px)",
         }}
       >
-        <div
+        <div className="main_div"
           style={{
             maxWidth: 1280,
             margin: "0 auto",
@@ -573,6 +573,9 @@ export default function Navbar() {
         @media (max-width: 768px) {
           .desktop-nav {
             display: none !important;
+          }
+          .main_div{
+            padding-right:12px;
           }
 
           .mobile-menu-btn {

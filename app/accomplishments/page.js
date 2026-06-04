@@ -3,12 +3,54 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 
 const cases = [
-  { client:"FreshCart",    industry:"E-commerce",    icon:"🛒", result:"340% organic traffic increase",  desc:"Built a full Next.js storefront with SEO strategy. Within 6 months, organic sessions tripled and conversion rate improved from 1.2% to 3.8%.", tags:["Web Dev","SEO"] },
-  { client:"LegalFlow",   industry:"LegalTech SaaS", icon:"⚖️", result:"$1.2M ARR in first year",         desc:"Designed and built their entire SaaS platform with subscription billing, onboarding flows, and an AI-powered document assistant.",              tags:["Web Dev","AI Agents","Payments"] },
-  { client:"NomadGear",   industry:"D2C Brand",      icon:"🎒", result:"5.1× ROAS on Meta Ads",           desc:"Rebuilt a bleeding ad account from scratch. New creative strategy cut CPA by 62% in 90 days.",                                                 tags:["SM Ads"] },
-  { client:"MindfulMD",   industry:"Health",         icon:"🧘", result:"18,000 new email subscribers",    desc:"Content strategy placed them page 1 for 40+ competitive keywords. Newsletter grew from 800 to 18k in 8 months.",                             tags:["SEO & Content"] },
-  { client:"StackOps",    industry:"DevTools",       icon:"⚙️", result:"80% reduction in manual ops",     desc:"Built AI agents automating customer support triage, invoice processing, and reporting — saving 30+ hours/week.",                              tags:["AI Agents"] },
-  { client:"PulseStudio", industry:"Creative Agency",icon:"🎨", result:"220% growth in inbound leads",    desc:"Rebuilt their website, added a booking system, and ran targeted LinkedIn + Meta campaigns to fill their pipeline.",                            tags:["Web Dev","SM Ads"] },
+  {
+    client: "FreshCart",
+    industry: "E-commerce",
+    icon: "🛒",
+    result: "85% increase in organic traffic",
+    desc: "Built a modern Next.js storefront and improved technical SEO. Organic traffic grew steadily over 5 months, with improved page speed and higher search visibility.",
+    tags: ["Web Dev", "SEO"],
+  },
+  {
+    client: "LegalFlow",
+    industry: "LegalTech SaaS",
+    icon: "⚖️",
+    result: "40% faster client onboarding",
+    desc: "Developed a SaaS platform with subscription billing, user onboarding, and document automation tools, reducing manual administrative work.",
+    tags: ["Web Dev", "AI Agents", "Payments"],
+  },
+  {
+    client: "NomadGear",
+    industry: "D2C Brand",
+    icon: "🎒",
+    result: "32% lower cost per acquisition",
+    desc: "Optimized ad campaigns and landing pages, improving targeting and reducing acquisition costs while maintaining sales volume.",
+    tags: ["SM Ads"],
+  },
+  {
+    client: "MindfulMD",
+    industry: "Health",
+    icon: "🧘",
+    result: "4,500 new email subscribers",
+    desc: "Implemented a content and SEO strategy that increased search visibility and helped grow the newsletter audience over several months.",
+    tags: ["SEO & Content"],
+  },
+  {
+    client: "StackOps",
+    industry: "DevTools",
+    icon: "⚙️",
+    result: "50% reduction in repetitive tasks",
+    desc: "Built workflow automations for support requests, reporting, and internal processes, saving valuable team time each week.",
+    tags: ["AI Agents"],
+  },
+  {
+    client: "PulseStudio",
+    industry: "Creative Agency",
+    icon: "🎨",
+    result: "70% increase in qualified leads",
+    desc: "Redesigned the website, streamlined lead capture, and launched targeted social campaigns that improved inquiry quality and volume.",
+    tags: ["Web Dev", "SM Ads"],
+  },
 ];
 
 const awards = [
@@ -36,7 +78,7 @@ export default function Accomplishments() {
         }}/>
         <div style={{
           position:"relative",maxWidth:1024,margin:"0 auto",
-          padding:"80px 24px 112px",textAlign:"center",
+          padding:"80px 24px",textAlign:"center",
         }}>
           <p style={{
             fontSize:"0.75rem",fontWeight:700,

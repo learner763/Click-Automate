@@ -1674,6 +1674,7 @@ img { display: block; max-width: 100%; }
 }
 .kd-hiw-section {
   padding: 80px 24px;
+  padding-bottom: 0;
   background: rgba(248,250,252,0.5);
 }
 .kd-industries-section { padding: 80px 24px; }

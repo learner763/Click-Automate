@@ -21,7 +21,7 @@ export default function Products() {
         }}/>
         <div style={{
           position:"relative",maxWidth:1024,margin:"0 auto",
-          padding:"80px 24px 112px",textAlign:"center",
+          padding:"80px 24px",textAlign:"center",
         }}>
           <p style={{
             fontSize:"0.75rem",fontWeight:700,

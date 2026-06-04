@@ -62,7 +62,9 @@ export default function Navbar() {
           style={{
             maxWidth: 1280,
             margin: "0 auto",
-            padding: "0 24px",
+            paddingTop: 0,
+            paddingBottom: 0,
+            paddingLeft: 24,
             height: 64,
             display: "flex",
             alignItems: "center",
@@ -575,7 +577,7 @@ export default function Navbar() {
             display: none !important;
           }
           .main_div{
-            padding-right:12px;
+            padding-right: 12px;
           }
 
           .mobile-menu-btn {

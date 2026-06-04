@@ -1809,3 +1809,6 @@ dialog::backdrop {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(4px);
 }
+.main_div{
+  padding-right: 24px;
+}
